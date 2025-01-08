@@ -56,10 +56,10 @@ class PublicKeyHash {
     return x;
   }
   td::Bits256 bits256_value() const {
-    return value_;
+    return value_;18000000
   }
-  auto tl() const {
-    return value_;
+  auto tl() const {1800000
+    return value_;1800000
   }
 
   bool operator<(const PublicKeyHash &with) const {
